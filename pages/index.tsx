@@ -236,11 +236,11 @@ export default function Home() {
                           className="group-hover:rotate-[360deg] duration-700"
                         />
                       </div>
-                    </div> 
+                    </div>
                   </div>
                   <div className='text-center hover:scale-[102%] transition-transform'>
                     <span className='text-base md:text-lg'>Malay</span>
-                    <div style={{ position: 'relative', width: '65px', height: '65px' }}  className='space-y-2 group'>
+                    <div style={{ position: 'relative', width: '65px', height: '65px' }} className='space-y-2 group'>
                       <div
                         style={{
                           position: 'absolute',
@@ -263,11 +263,11 @@ export default function Home() {
                           className="group-hover:rotate-[360deg] duration-700"
                         />
                       </div>
-                    </div> 
+                    </div>
                   </div>
                   <div className='text-center hover:scale-[102%] transition-transform'>
                     <span className='text-base md:text-lg'>Mandarin</span>
-                    <div style={{ position: 'relative', width: '65px', height: '65px' }}  className='space-y-2 group'>
+                    <div style={{ position: 'relative', width: '65px', height: '65px' }} className='space-y-2 group'>
                       <div
                         style={{
                           position: 'absolute',
@@ -290,7 +290,7 @@ export default function Home() {
                           className="group-hover:rotate-[360deg] duration-700"
                         />
                       </div>
-                    </div> 
+                    </div>
                   </div>
                 </div>
               </div>
@@ -355,7 +355,7 @@ export default function Home() {
 
         <section id='projects'>
           <div className='shadow-lg p-6 rounded-xl my-10'>
-            <h3 className='text-xl md:text-2xl text-center py-5 text-blue-500 font-bold'> My Projects and Competitions</h3>
+            <h3 className='text-xl md:text-2xl text-center py-5 text-blue-500 font-bold'> My Hackathons and Real Life Projects</h3>
             <div className='grid md:grid-cols-3 gap-3'>
               <div className='bg-gray-100 p-6 rounded-lg hover:scale-[102%] transition-transform'>
                 <h4 className='text-base md:text-lg font-semibold mb-5 text-center'>Odessey Hackathon</h4>
@@ -396,6 +396,55 @@ export default function Home() {
                   </div>
                 </NextLink>
               </div>
+              <div className='bg-gray-100 p-6 rounded-lg hover:scale-[102%] transition-transform'>
+                <h4 className='text-base md:text-lg font-semibold mb-5 text-center'>Nutox Microsite</h4>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  <Image src="/nutox.png" alt="React Logo" width={100} height={100} />
+                </div>
+                <h1 className='text-center mt-2 mb-3'>💄Beauty Product💄</h1>
+                <p className='text-center mt-2 mb-3'> Theme: Participate Juicy Glow Girl Skin Girl Search to Win Prize</p>
+                <NextLink href="https://myc.my/nutoxjuicyglowgirl" target='_blank'>
+                  <div className='flex justify-center'>
+                    <p className='bg-blue-500 text-white px-9 py-2 rounded-md hover:scale-[105%] transition-transform'>View Microsite</p>
+                  </div>
+                </NextLink>
+              </div>
+              <div className='bg-gray-100 p-6 rounded-lg hover:scale-[102%] transition-transform'>
+                <h4 className='text-base md:text-lg font-semibold mb-5 text-center'>Spritzer Microsite</h4>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  <Image src="/spritzer.png" alt="React Logo" width={70} height={70} />
+                </div>
+                <h1 className='text-center mt-2 mb-3'>🍾Drinking Product🍾</h1>
+                <p className='text-center mt-2 mb-3'> Theme: Participate and Win Free Hot Air Ballon or E Kart Riding Ticket</p>
+                <NextLink href="https://myc.my/sotingeyouthtopia" target='_blank'>
+                  <div className='flex justify-center'>
+                    <p className='bg-blue-500 text-white px-9 py-2 rounded-md hover:scale-[105%] transition-transform'>View Microsite</p>
+                  </div>
+                </NextLink>
+              </div>
+              <div className='bg-gray-100 p-6 rounded-lg hover:scale-[102%] transition-transform'>
+                <h4 className='text-base md:text-lg font-semibold mb-5 text-center'>Hiruscar Microsite & AR Filter</h4>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  <Image src="/hiruscar.png" alt="React Logo" width={150} height={150} />
+                </div>
+                <h1 className='text-center mt-2 mb-3'>💄Beauty Product💄</h1>
+                <p className='text-center mt-2 mb-8'> Theme: Participate and Get Free Voucher</p>
+                <div className='flex space-x-3'>
+                  <NextLink href="https://myc.my/hiruscar-qr-station" target='_blank' >
+                    <div className='flex justify-center'>
+                      <p className='bg-blue-500 text-white px-5 py-2 rounded-md hover:scale-[105%] transition-transform'>View Microsite</p>
+                    </div>
+                  </NextLink>
+                  <NextLink href="https://www.instagram.com/ar/3651541968413397/" target='_blank' className='flex space-x-3'>
+                    <div className='flex justify-center'>
+                      <p className='bg-blue-500 text-white px-5 py-2 rounded-md hover:scale-[105%] transition-transform'>View AR Filter</p>
+                    </div>
+                  </NextLink>
+                </div>
+
+              </div>
+
+
             </div>
           </div>
         </section>
@@ -469,7 +518,7 @@ export default function Home() {
                     ></div>
                   </div>
                 </div>
-                <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
+                {/* <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/flask.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
                     Flask <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (0%) </span>
@@ -480,7 +529,7 @@ export default function Home() {
                       style={{ width: "0%" }}
                     ></div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className='bg-gray-100 p-6 rounded-lg hover:scale-[102%] transition-transform'>
                 <h4 className='text-base md:text-lg font-semibold mb-5 text-center md:text-left'>App Development</h4>
