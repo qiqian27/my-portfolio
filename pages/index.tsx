@@ -448,24 +448,24 @@ export default function Home() {
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/nodejs.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
-                    Node.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (30%) </span>
+                    Node.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (70%) </span>
                   </p>
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
-                      style={{ width: "30%" }}
+                      style={{ width: "70%" }}
                     ></div>
                   </div>
                 </div>
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/nestjs.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
-                    Nest.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (20%) </span>
+                    Nest.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (0%) </span>
                   </p>
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
-                      style={{ width: "20%" }}
+                      style={{ width: "0%" }}
                     ></div>
                   </div>
                 </div>
@@ -565,12 +565,24 @@ export default function Home() {
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/git.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
-                    Git <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (10%) </span>
+                    Git <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (60%) </span>
+                  </p>
+                  <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
+                    <div
+                      className="bg-blue-500 h-2 md:h-3 rounded-full"
+                      style={{ width: "60%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
+                  <p className=" py-2 ">
+                    <Image src="/gitlab.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
+                    GitLab <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (60%) </span>
                   </p>
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
-                      style={{ width: "10%" }}
+                      style={{ width: "60%" }}
                     ></div>
                   </div>
                 </div>
