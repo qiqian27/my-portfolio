@@ -99,7 +99,7 @@ export default function Home() {
                 Life
               </Link>
               <a href="mailto: qichaiqian27@outlook.com" className="ml-5">Contact</a>
-              <a href="https://drive.google.com/file/d/1T00lbWu-f2E1wn5D_aoKKBSMz7VjOzja/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ml-5">Resume</a>
+              <a href="https://sdtaylorsedu-my.sharepoint.com/:b:/g/personal/qiqian_chai_sd_taylors_edu_my/EbU-OatUNJRLk5ypGOI-YI4Buc9J8CN3F9v9Y0kdKJQjDg?e=boQQlM" target="_blank" rel="noopener noreferrer" className="ml-5">Resume</a>
             </li>
           </ul>
         </nav>
