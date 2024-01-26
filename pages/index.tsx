@@ -437,10 +437,7 @@ export default function Home() {
                     <p className='bg-blue-500 text-white px-5 py-2 rounded-md hover:scale-[105%] transition-transform'>View AR Filter</p>
                   </NextLink>
                 </div>
-
               </div>
-
-
             </div>
           </div>
         </section>
