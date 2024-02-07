@@ -85,7 +85,7 @@ const Odessey = () => {
           <div className='shadow-lg p-6 rounded-xl my-1 hover:scale-105 animate-slide-in'>
             <h3 className='text-lg md:text-2xl py-1 text-black'>Introduction</h3>
             <p className='text-base md:text-lg py-2 leading-5 md:leading-8 text-gray-800 text-justify' >
-              This competition is about build an Mobile Application with Flutter and Dart named as HealMe. HealMe is a Mental HealthApplication that is a jack-of-all-trades, which combines main current mental health app featuresin the market, such as community interaction, web resources, meditation timer and moodtracking.
+              This competition is to build an Mobile Application with Flutter and Dart named as HealMe. HealMe is a Mental Health Application that is a jack-of-all-trades, which encompassing several key features such as community interaction, web resources, meditation timers and moodtracking.
             </p>
             <h3 className='text-lg md:text-2xl py-1 text-black'>Features</h3>
             <p className='text-base md:text-lg py-2 leading-5 md:leading-8 text-gray-800 text-justify' >

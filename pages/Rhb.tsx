@@ -81,7 +81,7 @@ const Rhb = () => {
           <div className='shadow-lg p-6 rounded-xl my-1 hover:scale-105 animate-slide-in'>
             <h3 className='text-lg md:text-2xl py-1 text-black'>Introduction</h3>
             <p className='text-base md:text-lg py-2 leading-5 md:leading-8 text-gray-800 text-justify' >
-              This competition is about build an Mobile Application with Flutter and Dart named as Rhb. The main goal of Rhb to help the young adults in developing financial literacy to grow their wealth at an early age. Therefore this application hgas offered several features such as mock investment, expenses tracking and so on.
+              The competition revolves around creating a mobile application using Flutter and Dart, titled Rhb. Rhb aims to foster financial literacy among young adults, empowering them to build wealth from a young age. The application offers various features including mock investment opportunities, expense tracking, and more, to support users in their journey towards financial independence.
             </p>
             <h3 className='text-lg md:text-2xl py-1 text-black'>Features</h3>
             <p className='text-base md:text-lg py-2 leading-5 md:leading-8 text-gray-800 text-justify' >

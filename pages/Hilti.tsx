@@ -87,7 +87,7 @@ const Hilti = () => {
           <div className='shadow-lg p-6 rounded-xl my-1 hover:scale-105 animate-slide-in'>
             <h3 className='text-lg md:text-2xl py-1 text-black'>Introduction</h3>
             <p className='text-base md:text-lg py-2 leading-5 md:leading-8 text-gray-800 text-justify' >
-              This competition is also about build an Mobile Application with Flutter and Dart named as Hilti_XXX. Hilti_XXX is an application that integrate with VR and AR features, so that it is easier to worker and user to use the equipment safely. At the same time, in that app have also provide training course and product selling which can significantly increase Hilti Company&apos;s Revenue and bring Hilti to another level.
+              The competition also focuses on developing a mobile application using Flutter and Dart, named Hilti_XXX. Hilti_XXX is an application designed to incorporate Virtual Reality (VR) and Augmented Reality (AR) functionalities, aimed at enhancing the safety and usability of equipment for workers and users. Additionally, the app offers training courses and facilitates product sales, presenting a lucrative opportunity to boost Hilti Company's revenue and propel the company to new heights.
             </p>
             <h3 className='text-lg md:text-2xl py-1 text-black'>Features</h3>
             <p className='text-base md:text-lg py-2 leading-5 md:leading-8 text-gray-800 text-justify' >
