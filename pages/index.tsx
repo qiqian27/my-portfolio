@@ -112,7 +112,7 @@ export default function Home() {
             <div>
               <Image src="/cqq.png" alt="" width={330} height={330} className='h-54 w-44 md:h-64 md:w-56 lg:h-96 lg:w-72 mx-auto md:mx-0' />
               <div className='flex justify-center items-center mt-2'>
-                <a href="https://www.instagram.com/qiqian_02/" target="_blank" rel="noopener noreferrer" className='md:mt-3 mt-1'>
+                <a href="https://www.instagram.com/qiqian1227/" target="_blank" rel="noopener noreferrer" className='md:mt-3 mt-1'>
                   <AiFillInstagram size={40} className='md:w-10 md:h-10 w-8 h-8 hover:scale-[110%] transition-transform' />
                 </a>
                 <a href="https://www.facebook.com/qiqianchai/" target="_blank" rel="noopener noreferrer" className='md:mt-3 mt-1 ml-10'>
