@@ -749,7 +749,7 @@ export default function Home() {
 
         <footer>
           <div className='flex items-center justify-center'>
-            <a href="https://www.instagram.com/qiqian_02/" target="_blank" rel="noopener noreferrer" className='md:mt-2 mt-1 md:md-2 hover:scale-[110%]  transition-transform'><AiFillInstagram size={30} /></a>
+            <a href="https://www.instagram.com/qiqian1227/" target="_blank" rel="noopener noreferrer" className='md:mt-2 mt-1 md:md-2 hover:scale-[110%]  transition-transform'><AiFillInstagram size={30} /></a>
             <a href="https://www.facebook.com/qiqianchai/" target="_blank" rel="noopener noreferrer" className='md:mt-2 mt-1 md:md-2 md:ml-10 ml-10 hover:scale-[110%]  transition-transform'><AiFillFacebook size={30} /></a>
             <a href="https://www.linkedin.com/in/chai-qi-qian-a5094520a/" target="_blank" rel="noopener noreferrer" className='md:mt-2 mt-1 md:md-2 md:ml-10 ml-10 hover:scale-[110%]  transition-transform'><AiFillLinkedin size={30} /></a>
           </div>
