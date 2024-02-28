@@ -534,7 +534,7 @@ export default function Home() {
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
-                      style={{ width: "20%" }}
+                      style={{ width: "60%" }}
                     ></div>
                   </div>
                 </div>
