@@ -529,7 +529,7 @@ export default function Home() {
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/React.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
-                    React Native <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (20%) </span>
+                    React Native <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (60%) </span>
                   </p>
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
                     <div
