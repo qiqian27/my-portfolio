@@ -65,7 +65,7 @@ const Rhb = () => {
           <ul className={menuOpen ? "open" : ""}>
             <li className='flex md:mt-2 mt-1'>
               <a href="mailto: qichaiqian27@outlook.com" className="ml-5">Contact</a>
-              <a href="/public/ChaiQiQian.pdf" target="_blank" rel="noopener noreferrer" className="ml-5">Resume</a>
+              <a href="/ChaiQiQian.pdf" target="_blank" rel="noopener noreferrer" className="ml-5">Resume</a>
             </li>
           </ul>
         </nav>
