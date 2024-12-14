@@ -475,12 +475,12 @@ export default function Home() {
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/angular.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
-                    Angualr <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (0%) </span>
+                    Angular <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (70%) </span>
                   </p>
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
-                      style={{ width: "0%" }}
+                      style={{ width: "70%" }}
                     ></div>
                   </div>
                 </div>
