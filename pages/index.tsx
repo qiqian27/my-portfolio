@@ -453,7 +453,7 @@ export default function Home() {
                     <Image src="/angular.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
                     Angular <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (70%) </span>
                   </p>
-                  <div className="w-full bg-gray-200 rounded-full h-2 msd:h-3 dark:bg-gray-700 relative group">
+                  <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
                       style={{ width: "70%" }}
