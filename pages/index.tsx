@@ -460,7 +460,7 @@ export default function Home() {
                     ></div>
                   </div>
                 </div>
-                {/* <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
+                <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/nextjs.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
                     Next.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (50%) </span>
@@ -471,7 +471,7 @@ export default function Home() {
                       style={{ width: "50%" }}
                     ></div>
                   </div>
-                </div> */}
+                </div>
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/angular.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
@@ -511,7 +511,7 @@ export default function Home() {
                     ></div>
                   </div>
                 </div>
-                <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
+                {/* <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/nestjs.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
                     Nest.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (0%) </span>
@@ -522,7 +522,7 @@ export default function Home() {
                       style={{ width: "0%" }}
                     ></div>
                   </div>
-                </div>
+                </div> */}
                 {/* <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/flask.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
