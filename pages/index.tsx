@@ -489,13 +489,25 @@ export default function Home() {
                 <h4 className='text-base md:text-lg font-semibold mb-5 text-center md:text-left'>Back End Development</h4>
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
-                    <Image src="/nodejs.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
-                    Node.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (70%) </span>
+                    <Image src="/spring-boot.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
+                    Spring Boot <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (60%) </span>
                   </p>
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
-                      style={{ width: "70%" }}
+                      style={{ width: "60%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
+                  <p className=" py-2 ">
+                    <Image src="/nodejs.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
+                    Node.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (50%) </span>
+                  </p>
+                  <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
+                    <div
+                      className="bg-blue-500 h-2 md:h-3 rounded-full"
+                      style={{ width: "50%" }}
                     ></div>
                   </div>
                 </div>
