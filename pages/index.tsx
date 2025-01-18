@@ -460,7 +460,7 @@ export default function Home() {
                     ></div>
                   </div>
                 </div>
-                <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
+                {/* <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/nextjs.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
                     Next.js <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (50%) </span>
@@ -471,7 +471,7 @@ export default function Home() {
                       style={{ width: "50%" }}
                     ></div>
                   </div>
-                </div>
+                </div> */}
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
                     <Image src="/angular.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
@@ -552,13 +552,13 @@ export default function Home() {
                 </div>
                 <div className="transition-transform transform-gpu hover:scale-[102%] group text-base md:text-lg">
                   <p className=" py-2 ">
-                    <Image src="/electron.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
-                    Electron <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (0%) </span>
+                    <Image src="/flutter.png" alt="" className="inline-block w-8 h-8 mr-2" width={240} height={240} />
+                    Flutter <span className="text-sm hidden transition-transform transform-gpu group-hover:inline-block"> (30%) </span>
                   </p>
                   <div className="w-full bg-gray-200 rounded-full h-2 md:h-3 dark:bg-gray-700 mb-2 relative group">
                     <div
                       className="bg-blue-500 h-2 md:h-3 rounded-full"
-                      style={{ width: "0%" }}
+                      style={{ width: "30%" }}
                     ></div>
                   </div>
                 </div>
