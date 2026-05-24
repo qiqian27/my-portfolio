@@ -141,11 +141,19 @@ export function AboutSection() {
           {[
             [
               "Current Focus",
-              "Fintech application development across frontend, backend, mobile support, APIs, and delivery workflows.",
+              "Fintech application development across frontend, backend, Spring Batch jobs, mobile support, APIs, and delivery workflows.",
             ],
             [
               "Support Mindset",
               "First-level support for live issues, debugging, root-cause analysis, and solution proposals.",
+            ],
+            [
+              "Delivery Automation",
+              "Deployment workflow improvements that reduce repeated manual work and make releases more consistent.",
+            ],
+            [
+              "Security Awareness",
+              "Repository privacy, access-control awareness, and token-based access practices for sensitive fintech code.",
             ],
             [
               "AI Workflow",

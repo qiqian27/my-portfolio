@@ -12,8 +12,9 @@ export const profile = {
   summary:
     "I build reliable fintech products across frontend, backend, mobile, and cloud-supported delivery. My Data Science and AI background helps me debug carefully, reason through systems, and deliver maintainable software with strong quality habits.",
   heroPoints: [
-    "Full stack fintech development with Spring Boot, Angular, React Native, REST APIs, MySQL, Azure, Jenkins, and Gradle.",
+    "Full stack fintech development with Spring Boot, Spring Batch, Angular, React Native, REST APIs, MySQL, Azure, Jenkins, and Gradle.",
     "First-level support for live issues, including debugging, root-cause analysis, and practical solution proposals for the team.",
+    "Deployment automation and access-control improvements that reduce repeated manual work and strengthen security awareness.",
     "AI-assisted engineering workflow for code review, debugging, documentation, and delivery confidence.",
   ],
 };
@@ -38,6 +39,9 @@ export const strengths = [
   "Reliable full stack delivery",
   "Live-issue debugging",
   "First-level support",
+  "Spring Batch jobs",
+  "Deployment automation",
+  "Security awareness",
   "Project coordination",
   "CI/CD awareness",
   "AI-assisted quality checks",
@@ -50,15 +54,17 @@ export const experiences = [
     location: "Selangor, Malaysia",
     period: "Jun 2024 - Present",
     summary:
-      "Building and maintaining fintech applications with privacy-safe full stack delivery across user interfaces, backend services, mobile support, and release workflows.",
+      "Building and maintaining fintech applications with privacy-safe full stack delivery across user interfaces, backend services, batch jobs, mobile support, security-aware repository access, and release workflows.",
     points: [
-      "Develop and maintain fintech application features with Spring Boot, Angular, React Native, REST APIs, MySQL, Azure, Jenkins, Gradle, and Lombok.",
-      "Support CI/CD workflows and release quality by contributing to Jenkins and Gradle-based delivery processes.",
+      "Develop and maintain fintech application features and Spring Batch jobs with Spring Boot, Angular, React Native, REST APIs, MySQL, Azure, Jenkins, Gradle, and Lombok.",
+      "Enhance deployment workflows to automate repeated manual steps, reduce release friction, and improve consistency across delivery processes.",
       "Provide first-level support for live issues, debug problems under pressure, identify root causes, and propose practical solutions to the team.",
+      "Improve security awareness around shared repositories by identifying public exposure risks, moving sensitive forked repositories to private access, and supporting token-based access control.",
       "Use AI-assisted engineering practices to strengthen code review, debugging, documentation, and quality checks while keeping developer judgment central.",
     ],
     stack: [
       "Spring Boot",
+      "Spring Batch",
       "Angular",
       "React Native",
       "REST APIs",
@@ -67,6 +73,7 @@ export const experiences = [
       "Jenkins",
       "Gradle",
       "Lombok",
+      "Token-based access",
     ],
   },
   {
@@ -201,7 +208,15 @@ export const skillGroups = [
   },
   {
     title: "Backend",
-    skills: ["Java", "Spring Boot", "Node.js", "REST APIs", "MySQL", "Lombok"],
+    skills: [
+      "Java",
+      "Spring Boot",
+      "Spring Batch",
+      "Node.js",
+      "REST APIs",
+      "MySQL",
+      "Lombok",
+    ],
   },
   {
     title: "Mobile",
@@ -209,7 +224,23 @@ export const skillGroups = [
   },
   {
     title: "DevOps & Cloud",
-    skills: ["Jenkins", "Gradle", "Azure", "GitHub", "GitLab"],
+    skills: [
+      "Jenkins",
+      "Gradle",
+      "Azure",
+      "Deployment automation",
+      "GitHub",
+      "GitLab",
+    ],
+  },
+  {
+    title: "Security Awareness",
+    skills: [
+      "Repository privacy",
+      "Access control",
+      "Token-based access",
+      "Exposure risk review",
+    ],
   },
   {
     title: "Data & AI",
