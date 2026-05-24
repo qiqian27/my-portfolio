@@ -10,12 +10,12 @@ export const profile = {
   instagramHref: "https://www.instagram.com/qiqian1227/",
   facebookHref: "https://www.facebook.com/qiqianchai/",
   summary:
-    "I build reliable fintech products across frontend, backend, mobile, and cloud-supported delivery. I also use modern AI tools to debug carefully, reason through systems, and deliver maintainable software with stronger quality habits.",
+    "I build reliable fintech products across frontend, backend, mobile, and cloud-supported delivery. I keep up with modern engineering tools and practices to debug carefully, reason through systems, and deliver maintainable software with stronger quality habits.",
   heroPoints: [
     "Full stack fintech development with Spring Boot, Spring Batch, Angular, React Native, REST APIs, MySQL, Azure, Jenkins, and Gradle.",
     "First-level support for live issues, including debugging, root-cause analysis, and practical solution proposals for the team.",
     "Deployment automation and access-control improvements that reduce repeated manual work and strengthen security awareness.",
-    "AI-assisted engineering workflow for code review, debugging, documentation, and delivery confidence.",
+    "Continuous learning mindset with awareness of latest technology, engineering practices, and delivery quality improvements.",
   ],
 };
 
@@ -44,7 +44,7 @@ export const strengths = [
   "Security awareness",
   "Project coordination",
   "CI/CD awareness",
-  "AI-assisted quality checks",
+  "Latest tech awareness",
 ];
 
 export const experiences = [
@@ -60,7 +60,7 @@ export const experiences = [
       "Enhance deployment workflows to automate repeated manual steps, reduce release friction, and improve consistency across delivery processes.",
       "Provide first-level support for live issues, debug problems under pressure, identify root causes, and propose practical solutions to the team.",
       "Improve security awareness around shared repositories by identifying public exposure risks, moving sensitive forked repositories to private access, and supporting token-based access control.",
-      "Use AI-assisted engineering practices to strengthen code review, debugging, documentation, and quality checks while keeping developer judgment central.",
+      "Keep up with modern engineering practices to strengthen code review, debugging, documentation, and quality checks.",
     ],
     stack: [
       "Spring Boot",
@@ -243,12 +243,12 @@ export const skillGroups = [
     ],
   },
   {
-    title: "AI-Assisted Engineering",
+    title: "Modern Engineering Practices",
     skills: [
-      "AI-assisted debugging",
-      "AI-supported code review",
-      "Prompting for technical analysis",
-      "Documentation support",
+      "Latest tech awareness",
+      "Modern tooling",
+      "Technical research",
+      "Documentation habits",
       "Quality checks",
     ],
   },

@@ -156,12 +156,12 @@ export function AboutSection() {
               "Repository privacy, access-control awareness, and token-based access practices for sensitive fintech code.",
             ],
             [
-              "AI Workflow",
-              "AI-assisted code review, debugging, documentation, and quality checks guided by engineering judgment.",
+              "Continuous Learning",
+              "Keeping up with latest technology, modern engineering practices, documentation habits, and quality checks.",
             ],
             [
               "Academic Base",
-              "Computer Science graduate with First Class Honours, Dean's List results, and practical AI-assisted engineering habits.",
+              "Computer Science graduate with First Class Honours, Dean's List results, and a strong software engineering foundation.",
             ],
           ].map(([title, body]) => (
             <div
@@ -346,7 +346,7 @@ export function EducationSection() {
       <SectionHeading
         eyebrow="Education & awards"
         title="Strong academic foundation with hands-on competition experience."
-        description="Computer Science fundamentals, practical AI tool usage, and competition experience support the analytical side of my engineering work."
+        description="Computer Science fundamentals, latest technology awareness, and competition experience support the analytical side of my engineering work."
       />
       <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
         <div className="space-y-5">
