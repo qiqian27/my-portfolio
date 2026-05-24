@@ -161,7 +161,7 @@ export function AboutSection() {
             ],
             [
               "Academic Base",
-              "Computer Science graduate with Data Science and AI specialization, First Class Honours, and Dean's List results.",
+              "Computer Science graduate with First Class Honours, Dean's List results, and practical AI-assisted engineering habits.",
             ],
           ].map(([title, body]) => (
             <div
@@ -346,7 +346,7 @@ export function EducationSection() {
       <SectionHeading
         eyebrow="Education & awards"
         title="Strong academic foundation with hands-on competition experience."
-        description="Computer Science, Data Science, and AI training support the analytical side of my engineering work."
+        description="Computer Science fundamentals, practical AI tool usage, and competition experience support the analytical side of my engineering work."
       />
       <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
         <div className="space-y-5">

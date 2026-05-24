@@ -10,7 +10,7 @@ export const profile = {
   instagramHref: "https://www.instagram.com/qiqian1227/",
   facebookHref: "https://www.facebook.com/qiqianchai/",
   summary:
-    "I build reliable fintech products across frontend, backend, mobile, and cloud-supported delivery. My Data Science and AI background helps me debug carefully, reason through systems, and deliver maintainable software with strong quality habits.",
+    "I build reliable fintech products across frontend, backend, mobile, and cloud-supported delivery. I also use modern AI tools to debug carefully, reason through systems, and deliver maintainable software with stronger quality habits.",
   heroPoints: [
     "Full stack fintech development with Spring Boot, Spring Batch, Angular, React Native, REST APIs, MySQL, Azure, Jenkins, and Gradle.",
     "First-level support for live issues, including debugging, root-cause analysis, and practical solution proposals for the team.",
@@ -243,12 +243,13 @@ export const skillGroups = [
     ],
   },
   {
-    title: "Data & AI",
+    title: "AI-Assisted Engineering",
     skills: [
-      "Data Science",
-      "Machine Learning",
-      "NLP",
-      "AI-assisted engineering",
+      "AI-assisted debugging",
+      "AI-supported code review",
+      "Prompting for technical analysis",
+      "Documentation support",
+      "Quality checks",
     ],
   },
   {
@@ -272,7 +273,7 @@ export const education = [
       "CGPA 3.81/4",
       "First Class Honours",
       "Dean's List every semester",
-      "Data Science & Artificial Intelligence",
+      "Computer Science foundation",
     ],
   },
   {
