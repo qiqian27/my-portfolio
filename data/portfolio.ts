@@ -5,6 +5,7 @@ export const profile = {
   location: "Kelantan, Malaysia",
   email: "qichaiqian27@outlook.com",
   phone: "+60129687207",
+  portraitSrc: "/profile.jpeg",
   resumeHref: "/ChaiQiQian.pdf",
   linkedInHref: "https://www.linkedin.com/in/chai-qi-qian-a5094520a/",
   instagramHref: "https://www.instagram.com/qiqian1227/",

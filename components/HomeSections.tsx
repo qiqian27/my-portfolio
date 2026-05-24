@@ -30,7 +30,7 @@ export function HeroSection() {
         <p className="mb-5 inline-flex rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">
           Available for software engineering opportunities
         </p>
-        <h1 className="text-balance text-5xl font-black tracking-tight text-slate-950 md:text-7xl">
+        <h1 className="text-balance text-4xl font-black tracking-tight text-slate-950 sm:text-5xl md:text-7xl">
           Software Engineer with full stack fintech experience.
         </h1>
         <p className="mt-6 max-w-2xl text-xl leading-8 text-slate-600">
@@ -52,7 +52,7 @@ export function HeroSection() {
           <div className="grid gap-5 sm:grid-cols-[0.82fr_1.18fr] sm:items-center">
             <div className="overflow-hidden rounded-[1.5rem] bg-slate-100">
               <Image
-                src="/profile.jpg"
+                src={profile.portraitSrc}
                 alt="Chai Qi Qian"
                 width={420}
                 height={520}
